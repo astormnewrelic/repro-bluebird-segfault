@@ -1,0 +1,15 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "repro": "./run-until-fail.sh node methods.tap.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.6.0",
+    "tap": "^14.6.9"
+  }
+}
